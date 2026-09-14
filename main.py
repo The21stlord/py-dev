@@ -180,15 +180,15 @@ while True:
                             print(f"youve quit sucker! the answer wuz {random_number}")
                             quit_game = True
                             break
+                        elif guess is None: 
+                            print("enter a number or type 'quit' lil bro")
+                            continue
                         elif guess > random_number:
                               print("yer guess is too high try again")
                               continue
                         elif guess < random_number:
                               print("yer guess is too low try again")
                               continue
-                        elif guess is None: 
-                            print("enter a number or type 'quit' lil bro")
-                            continue
                         elif guess == random_number:
                             print("you got it right wasnt expecting that!")
                             quit_game = True
