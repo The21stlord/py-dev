@@ -136,6 +136,7 @@ print(f"Average: {average:.2f}")
 print(f"Grade: {grade}")
 print(f"Remarks: {remarks}")
 """
+'''
 import random as rdm
 print("-----Random Number Generator-----")
 while True:
@@ -198,3 +199,25 @@ while True:
                     if quit_game:
                         break
 print("bye")
+'''
+'''
+names = []
+while True:
+        name = input("enter some names (or 'quit' to... quit): ").strip()
+
+        if name == "quit":
+            break
+        names.append(name)
+for name in names:
+    print (f"original: {name}\nUppercase: {name.upper()}\nCapitalized: {name.capitalize()}\nlenght: {len(name)}")
+'''
+questions = [
+    ('whats the capital of france?', 'Paris')
+    ("who's the GOAT in football?", 'Ronaldo')
+    ('who is the richest man on earth', 'Elon Musk')
+    ('whats the hardest substance on earth', 'Diamond')
+    ("best phone brand? ", "Samsung")
+    ]
+
+while True:
+    print 
