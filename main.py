@@ -240,3 +240,24 @@ for question, correct_answer in questions:
 print(f"final score is {score} out of {len(questions)}")
 '''
 
+# user_0 = {
+#     'username': 'enrico',
+#     'first': 'efermi',
+#     'last': 'fermi'
+# }
+
+# for key in user_0.keys():
+#     print(f"key: {key}")
+
+favourite_langs = {
+    'luke': 'danish',
+    'james': 'arabic',
+    'tola': 'english',
+}
+friends = ['james',]
+for name in favourite_langs.keys():
+    print(f"hi {name}")
+
+    if name in friends:
+        lang = favourite_langs[name].title()
+        print(f"\t{name.title()}, i see you like {lang}!")
